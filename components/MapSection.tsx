@@ -19,7 +19,7 @@ const MapSection = () => {
           <span>CONTACT US</span>
         </div>
         <div className="md:w-[50%]">
-          <div className="map-image" />
+          <div className="map-image" aria-label="map-image" />
         </div>
       </div>
     </div>
