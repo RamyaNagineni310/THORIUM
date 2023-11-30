@@ -1,6 +1,9 @@
+import MainBanner from "@/components/MainBanner";
+
 export default function Home() {
   return (
     <>
+      <MainBanner />
       <div className="description-container">
         <p className="description">
           <p>
@@ -27,9 +30,9 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="images-section">
-        <div className="person-three-image" />
-        <div className="dot-shape" />
+      <div className="images-section flex flex-col-reverse md:flex-row">
+        <div className="person-three-image w-full md:w-[70vw]" />
+        <div className="dot-shape md:flex" />
       </div>
       <div className="map-section">
         <h2>
@@ -37,7 +40,7 @@ export default function Home() {
           <div>access to health care</div>
           providers?
         </h2>
-        <div className="flex flex-row gap-10">
+        <div className="flex flex-col md:flex-row gap-10">
           <div className="md:w-[50%] flex flex-col">
             <p className="details flex-1">
               MagnaCare has an extensive PPO network that includes all 50 states
