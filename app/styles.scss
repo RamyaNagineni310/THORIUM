@@ -61,16 +61,16 @@ header {
     .person-one-img {
       background-image: url("/assets/img1.jpg");
       background-repeat: no-repeat;
-      height: 100%;
-      width: 100%;
+      width: 100vw;
+      height: 50vw;
       background-position: 60%;
       background-size: 100% 140%;
     }
     .person-two-img {
       background-image: url("/assets/img2.jpg");
       background-repeat: no-repeat;
-      height: 100%;
-      width: 100%;
+      width: 100vw;
+      height: 50vw;
       background-position: 51%;
       background-size: 240% 140%;
     }
@@ -206,6 +206,7 @@ header {
 @media screen and (min-width: 768px) {
   .main-banner-container .main-banner-images {
     padding: 0;
+    height: 45vw;
     .access-text-bg {
       width: 90vw;
       height: 45vw;
