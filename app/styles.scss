@@ -78,3 +78,18 @@ header {
   background-position: 51%;
   background-size: 240% 140%;
 }
+
+.description-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 90%;
+  .description {
+    align-self: flex-end;
+    width: min(100vw, 768px);
+    font-size: 30px;
+    color: white;
+    font-family: "Messina";
+  }
+}
+
