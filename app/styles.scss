@@ -1,0 +1,39 @@
+body {
+  background-color: #003e6d;
+  background-image: radial-gradient(
+    50% 50% at 50% 50%,
+    #086cb5 0%,
+    rgba(8, 126, 211, 0) 100%
+  );
+}
+
+
+.access-text-bg {
+  width: 100vw;
+  aspect-ratio: 0.5;
+  background-image: url("/assets/access.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 70px;
+  background-position: 27% 0%;
+}
+
+.person-one-img {
+  background-image: url("/assets/img1.jpg");
+  height: 490px;
+  width: 330px;
+  position: absolute;
+  top: 323px;
+  background-position: 60%;
+  background-size: 260% 140%;
+}
+.person-two-img {
+  background-image: url("/assets/img2.jpg");
+  height: 400px;
+  width: 310px;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  background-position: 51%;
+  background-size: 240% 140%;
+}
