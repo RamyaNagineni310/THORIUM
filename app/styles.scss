@@ -7,6 +7,47 @@ body {
   );
 }
 
+header {
+  z-index: 1000;
+  background-color: #003e6d;
+}
+
+.notification-bar {
+  background-color: #17243a;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #e5f2f8;
+  font-family: "Messina";
+  font-size: 15.72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.702px;
+}
+
+.company-logo {
+  height: 26px;
+  background-repeat: no-repeat;
+  width: 234px;
+  background-image: url("/assets/logo.svg");
+}
+
+.menu-icon {
+  background-image: url("/assets/menu.svg");
+  height: 23px;
+  width: 28px;
+}
+
+.tag-line {
+  color: #e5f2f8;
+  text-align: center;
+  font-size: 35.72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 57.152px */
+  letter-spacing: 13.574px;
+  text-transform: uppercase;
+}
 
 .access-text-bg {
   width: 100vw;
