@@ -93,3 +93,59 @@ header {
   }
 }
 
+.mail-container {
+  position: relative;
+  padding: 200px 20px 0;
+  width: 100vw;
+  .plus-icon {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    background-image: url("/assets/plus.svg");
+    top: 100px;
+    left: 100px;
+  }
+
+  .mail-box {
+    margin: 0 auto;
+    display: flex;
+    width: min(calc(100vw - 20px), 768px);
+    padding: 0;
+
+    input {
+      padding: 30px;
+      width: 60%;
+      height: 79px;
+      border-radius: 5px 0px 0px 5px;
+      border: 1px solid rgba(229, 242, 248, 0.33);
+      background: rgba(229, 242, 248, 0.05);
+      color: var(--Text-White, #e5f2f8);
+      // font-family: "Messina";
+      font-size: 25.72px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 165%; /* 42.438px */
+      letter-spacing: 0.386px;
+    }
+    button {
+      width: 40%;
+      border-radius: 0px 5px 5px 0px;
+      background: var(--Sand, #ff763c);
+      box-shadow: 0px 0px 54px 0px rgba(255, 118, 59, 0.6);
+    }
+  }
+  p {
+    margin: 50px auto;
+    width: min(calc(100vw - 20px), 600px);
+    color: #e5f2f8;
+    text-align: center;
+    font-family: Messina Sans;
+    font-size: 12.72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165%; /* 20.988px */
+    letter-spacing: 0.191px;
+    opacity: 0.4;
+  }
+}
+
